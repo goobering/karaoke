@@ -1,0 +1,1 @@
+for %%v in (%CD%"\*.rb") do start /B "" "%%~v"
