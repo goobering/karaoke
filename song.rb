@@ -1,11 +1,11 @@
 class Song
 
-def initialize(title, artist, album, track_num, lyrics)
+def initialize(title)
     @title = title
-    @artist = artist
-    @album = album
-    @track_num = track_num
-    @lyrics = lyrics
+end
+
+def title()
+    return @title
 end
 
 end
